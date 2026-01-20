@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/cdn-favicon-512.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- tailwind css -->
+  <link rel="stylesheet" href="./src/style.css">
+
+  <title>Text limiter by input event | Task 13</title>
+</head>
+
+<body>
+
+  <main class="w-full">
+    <section class="w-full container mx-auto py-10 pt-20">
+      <div class="w-full md:w-[60%] mx-auto flex justify-center items-center">
+        <div class="w-full flex flex-col justify-center items-center gap-5">
+          <h1 class="text-3xl font-bold mb-2">Text Limiter</h1>
+          <p class="text-gray-400 text-sm font-semibold mb-5">Limit your words within 200 characters</p>
+
+          <div class="flex gap-5 items-center flex-wrap bg-zinc-900 rounded-xl p-3" id="btn-container">
+          </div>
+
+          <div id="message-container"
+            class="absolute top-50 right-3 bg-green-700 border-white/20 rounded-xl p-3 font-semibold message-slide transition">
+            Your text has been modified ✨
+          </div>
+
+          <div class="w-full flex flex-col gap-5 justify-center items-center">
+            <textarea id="textarea-input" class="text-area" placeholder="Enter your text here..."></textarea>
+            <p id="alert-message" class="alert-message">* Type something in textarea</p>
+            <p id="counter-message" class="count-message">You have 200 out of 200 charcters</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- main javascript -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
