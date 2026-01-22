@@ -1,3 +1,4 @@
+// variables,
 const textAreaEl = document.getElementById('textarea-input');
 const alertMessageEl = document.getElementById('alert-message');
 const countMessageEl = document.getElementById('counter-message');
@@ -5,6 +6,7 @@ const countMessageEl = document.getElementById('counter-message');
 let count;
 let limit = 200;
 
+// count the words,
 const countWordsFunc = () => {
   alertMessageEl.style.display = 'none';
 
@@ -28,6 +30,7 @@ const countWordsFunc = () => {
 
 };
 
+// if i give input it can trigger the function,
 textAreaEl.addEventListener('input', countWordsFunc);
 
 // buttons array

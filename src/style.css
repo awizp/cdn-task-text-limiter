@@ -12,7 +12,7 @@
 
 @layer components {
   .text-area {
-    @apply bg-zinc-900 border-2 border-white/20 rounded-xl outline-none p-3 w-full h-75;
+    @apply bg-zinc-900 border-2 border-white/20 rounded-xl outline-none p-3 w-full h-65;
   }
 
   .count-message {
