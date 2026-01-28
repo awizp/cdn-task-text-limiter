@@ -1,6 +1,6 @@
 ## ⚡ Live character counting | Task 13
 
-    A simle text limiter limits the words within 200 words
+    A simple text limiter limits the words within 200 words
 
 ### 📒 Stacks used:
 
